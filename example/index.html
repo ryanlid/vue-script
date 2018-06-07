@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo</title>
+  <link rel="stylesheet" href="https://unpkg.com/iview@2.14.1/dist/styles/iview.css">
+  <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+
+  <script src="../dist/vue-script.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <template>
+        <Alert>An info prompt</Alert>
+        <Alert type="success">A success prompt</Alert>
+        <Alert type="warning">A warning prompt</Alert>
+        <Alert type="error">An error prompt</Alert>
+    </template>
+  </div>
+  <script>
+    new Vue({
+      el: '#app',
+      data: function () {
+        return {}
+
+      }
+    })
+
+  </script>
+</body>
+
+</html>
