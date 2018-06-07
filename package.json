@@ -1,14 +1,14 @@
 {
   "name": "vue-script",
   "version": "1.0.0",
-  "description": "",
+  "description": "Enable Vue-component to be referenced by script",
   "main": "index.js",
   "scripts": {
     "dist:dev": "webpack --config build/webpack.dist.dev.config.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ryan",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -19,5 +19,17 @@
     "vue-template-compiler": "^2.5.16",
     "webpack": "^3.12.0",
     "webpack-merge": "^3.0.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanlid/vue-script.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanlid/vue-script/issues"
+  },
+  "homepage": "https://github.com/ryanlid/vue-script#readme"
 }
